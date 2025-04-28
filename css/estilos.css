@@ -1,0 +1,141 @@
+/* archivo estilos.css */
+ <style>
+        /* Paleta de colores (según la imagen) */
+        :root {
+            --color-barra-navegacion: #d3f8fa;
+            --color-titulo: #ffc78e;
+            --color-subtitulo: #ffdab3;
+            --color-fondo: #ffe4ef;
+            --color-fondo-seccion: #f9f9f9; /* Nuevo color para el fondo de las secciones */
+            --color-borde-seccion: #e0e0e0; /* Nuevo color para el borde de las secciones */
+            --color-pie-pagina: #e0e0e0;
+            --color-texto-negro: #000000;
+            --color-texto-blanco: #FFFFFF;
+            --color-texto-marron: #774936;
+            --espacio-interno-seccion: 20px; /* Espaciado interno para las secciones */
+            --margen-inferior-seccion: 30px; /* Margen inferior para separar secciones */
+        }
+
+        /* Estilos generales */
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #ffe4ef;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6; /* Mejora la legibilidad del texto */
+        }
+
+        /* Barra de navegación */
+        nav {
+            background-color: #d3f8fa;
+            padding: 15px 0; /* Más espacio vertical */
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sutil sombra para destacar */
+        }
+
+        nav a {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1em; /* Tamaño de fuente un poco mayor */
+            color: #000000;
+            text-decoration: none;
+            margin: 0 20px; /* Más espacio horizontal entre enlaces */
+            padding: 8px 12px; /* Espaciado alrededor de los enlaces */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s ease; /* Transición suave al pasar el ratón */
+        }
+
+        nav a:hover {
+            background-color: rgba(0, 0, 0, 0.05); /* Ligero cambio de color al pasar el ratón */
+        }
+
+        /* Título principal */
+        header {
+            background-color: #ffc78e;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 30px 0; /* Más espacio vertical */
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-family: 'Raleway', sans-serif;
+            font-size: 2.5em; /* Tamaño de fuente mayor */
+            margin: 0;
+        }
+
+        /* Contenido principal */
+        main {
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px; /* Ancho máximo un poco mayor */
+            margin: 0 auto;
+            padding: 20px; /* Espacio interno para el contenedor */
+            background-color: #f9f9f9; /* Fondo para el contenedor */
+            border-radius: 8px; /* Bordes redondeados para el contenedor */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Sutil sombra para el contenedor */
+        }
+
+        /* Secciones */
+        .section {
+            margin-bottom:30px;
+            padding: 20px;
+            border: 1px solid #e0e0e0; /* Borde para las secciones */
+            border-radius: 8px; /* Bordes redondeados para las secciones */
+        }
+
+        /* Subtítulos */
+        h2 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.8em; /* Tamaño de fuente mayor */
+            color: #774936;
+            background-color: #ffdab3;
+            padding: 12px; /* Más espacio interno */
+            margin-bottom: 15px; /* Más margen inferior */
+            border-radius: 5px;
+        }
+
+        /* Párrafos */
+        p {
+            font-size: 1em;
+            line-height: 1.7; /* Mejora la legibilidad */
+            margin-bottom: 10px;
+        }
+
+        /* Listas ordenadas y no ordenadas */
+        ol, ul {
+            padding-left: 25px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        li strong {
+            font-weight: bold;
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #e0e0e0;
+            text-align: center;
+            padding: 15px 0; /* Más espacio vertical */
+            font-size: 0.9em;
+            color: #000000;
+            border-top: 1px solid #e0e0e0; /* Línea superior para separar */
+        }
+
+        /* Estilos adicionales para mejorar la presentación */
+        .destacado {
+            font-weight: bold;
+            color: #ffc78e;
+        }
+
+        .sub-lista {
+            list-style-type: circle;
+            padding-left: 30px;
+        }
+    </style>
